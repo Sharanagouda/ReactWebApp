@@ -3,7 +3,7 @@ import React, { Component} from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Home from "../containers/home";
 import RecipeHome from "../containers/recipeHome";
-
+import About from "../containers/about/AboutOne";
 
 
 class Routes extends Component {
@@ -14,6 +14,7 @@ class Routes extends Component {
                     <Switch>
                         {/* <PrivateRoute exact path="/" component={HomePage} /> */}
                         <Route path="/" exact component={RecipeHome} title="RecipeHome" />
+                        <Route path="/about" component={About} title="About"/>
                         <Route path="/home" exact component={Home} title="Home"/>
                         <Route component={PageNotFound} />
                     </Switch>

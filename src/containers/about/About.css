@@ -1,0 +1,76 @@
+.header-image {
+    width: 100%;
+    margin-top: -2em;
+    margin-bottom: 2em;
+  }
+  
+  .about-profile-pic {
+    margin: 0 1em 1em 0;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+     border-radius: 50%;
+  }
+  .about-div{
+    padding-top:60px;
+    margin-bottom: 40px;
+  }
+  .hey-content{
+    font-family: Playfair Display,serif;
+    font-size: 3rem!important;
+    color: #363636;
+    font-weight: 600;
+    line-height: 1.125;
+  }
+  .about-content{
+    font-family: "Merriweather", serif;
+  }
+
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-font-smoothing: antialiased;
+}
+
+.animated1 {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  text-rendering: optimizeLegibility;
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
