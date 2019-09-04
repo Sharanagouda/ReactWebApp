@@ -54,7 +54,7 @@ useEffect(() => {
 
 }, [])
     return (
-        <div>
+        <div className="maindiv" style={{paddingTop:30}}>
             {loading ? <h1 className="text-center">...fetching {search} recipe</h1> :
                 <div>
                     <div className="container d-flex justify-content-center my-5">
